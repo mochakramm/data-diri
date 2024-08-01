@@ -1,0 +1,72 @@
+/* Reset dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengatur tinggi tampilan untuk memenuhi layar */
+}
+
+/* Gaya untuk kontainer */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Lebar kontainer */
+}
+
+/* Gaya untuk heading */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Jarak bawah untuk heading */
+}
+
+/* Gaya untuk label */
+label {
+    display: block;
+    margin-bottom: 5px; /* Jarak bawah untuk label */
+    color: #555;
+}
+
+/* Gaya untuk input */
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Padding dalam */
+    margin-bottom: 15px; /* Jarak bawah untuk input */
+    border: 1px solid #ccc; /* Warna border */
+    border-radius: 4px; /* Sudut melengkung */
+}
+
+/* Gaya untuk tombol */
+button {
+    width: 100%; /* Lebar penuh */
+    padding: 10px;
+    background-color: #007BFF; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 4px; /* Sudut melengkung */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+}
+
+/* Gaya untuk tombol saat hover */
+button:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk pesan kesalahan */
+p {
+    text-align: center;
+    margin-top: 10px; /* Jarak atas untuk pesan */
+}
