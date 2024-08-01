@@ -14,7 +14,7 @@ if (!isset($_SESSION['user_id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata Reza Rezaldi</title>
-    <link rel="stylesheet" href="style_halaman_rencanaku.css">
+    <link rel="stylesheet" href="styles_data_diri.css">
 </head>
 <body>
     <div class="container">
